@@ -1,11 +1,11 @@
 #include<stdio.h>
 /**
- * main - Entry point
- *
- *sizeof - determines variables size by data type prints to stdio 
- *
- * Return: Always 0 (Success)
- */
+* main - Entry point
+*
+*sizeof - determines variables size by data type prints to stdio 
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 printf("Size of a char: %d byte(s)\n", sizeof(char));
