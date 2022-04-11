@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /* 
 * main - Entry point
 * if...else if...else statement to determine value of n
@@ -25,8 +26,7 @@ else if (n < 0)
 {
 printf("%d is negative\n", n);
 }
-else
-{
+else{
 }	
 return (0);
 }
