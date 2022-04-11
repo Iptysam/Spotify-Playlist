@@ -5,7 +5,7 @@
 /**
 * main - Entry point
 *
-* Description -  Determine if the last digit of a random number is
+* Description :  Determine if the last digit of a random number is
 * greater than or less than 5, or is zero..
 * 
 * Return : Always 0 (Success)
