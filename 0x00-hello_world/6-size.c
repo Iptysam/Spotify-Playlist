@@ -2,8 +2,6 @@
 /**
 * main - Entry point
 *
-* sizeof- determines variables size by data type prints to stdio 
-*
 * Return: Always 0 (Success)
 */
 int main(void)
