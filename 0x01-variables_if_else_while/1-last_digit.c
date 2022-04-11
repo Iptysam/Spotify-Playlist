@@ -6,7 +6,7 @@
 * Description : main - Determine if the last digit of a random number is
 * greater than or less than 5, or is zero..
 *
-* Return : Always 0
+* Return : Always 0 (Success)
 */
 int main(void)
 {
