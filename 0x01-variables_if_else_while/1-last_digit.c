@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
-* main - determine the last digit of the number
+* main - Entry point
 *
 * Return : Always 0 (Success)
 */
