@@ -4,7 +4,7 @@
 
 /**
  * main - Entry point
- *
+ * if...else if... else statement to determine integers and value
  * Return : Always 0 (Success)
  */
 int main(void)
