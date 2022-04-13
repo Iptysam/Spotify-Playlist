@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - print last digit of number
  * if...else if... else statement to determine integers and value
  * Return : Always 0 (Success)
  */
