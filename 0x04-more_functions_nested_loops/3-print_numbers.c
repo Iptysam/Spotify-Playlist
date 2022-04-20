@@ -3,14 +3,13 @@
 /**
  * print_numbers - prints numbers from 0 to 9
  * followed by a new line
- * Return: Always (0)
+ * Return: void
  */
 
 void print_numbers(void)
 {
-int num;
+int num = 0;
 
-num = 0;
 while (num < 10)
 {
 _putchar(num + '0');
