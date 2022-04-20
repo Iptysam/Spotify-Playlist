@@ -12,9 +12,9 @@ int num = 0;
 
 while (num < 10)
 {
-_putchar(num + '0');
+_putchar('0'+ num);
 num++;
 }
-_putchar('/n');
+_putchar('\n');
 }
 
