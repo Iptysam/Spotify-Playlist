@@ -20,8 +20,8 @@ _putchar('Buzz')
 }
 else if (i % 3 == 0 && i % 5 == 0)
 {
-_putchar('FizzBuzz')	
+_putchar('FizzBuzz')
 }
 else
 {
-return(0);
+return (0);
