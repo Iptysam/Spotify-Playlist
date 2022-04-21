@@ -24,4 +24,11 @@ _putchar("FizzBuzz");
 }
 else
 {
-return 0;
+printf("%d", i);
+}
+if (i < 100)
+putchar(' ');
+}
+printf("\n");
+return (0);
+}
