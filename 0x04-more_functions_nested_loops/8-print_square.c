@@ -16,13 +16,13 @@ _putchar('\n');
 }
 else
 {
-for (i = 1; i < size; i++)
+for (i = 0; i < size; i++)
 {
-_putchar('#');
 for (j = 1; j < size; j++)
 {
 _putchar('#');
 }
+_putchar('#');
 _putchar('\n');
 }
 }
