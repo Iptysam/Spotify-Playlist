@@ -19,16 +19,14 @@ else
 {
 for (i = 0; i < size; i++)
 {
-for (j = 1; j < size; j++)
+for (j = 1; j <= (size - i); j++)
 {
-for (k = 1; k < size; k++)
+_putchar(' ');
+}
+for (k = 1; k < i; k++)
 {
 _putchar('#');
 }
-_putchar('#');
-_putchar('\n');
-}
-_putchar('#');
 _putchar('\n');
 }
 }
