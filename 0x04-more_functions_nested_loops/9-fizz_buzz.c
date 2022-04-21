@@ -12,15 +12,15 @@ for (i = 0; i <= 100; i++)
 {
 if (i % 3 == 0)
 {
-_putchar("Fizz");
+printf("Fizz");
 }
 else if (i % 5 == 0)
 {
-_putchar("Buzz");
+printf("Buzz");
 }
 else if (i % 3 == 0 && i % 5 == 0)
 {
-_putchar("FizzBuzz");
+printf("FizzBuzz");
 }
 else
 {
@@ -29,6 +29,6 @@ printf("%d", i);
 if (i < 100)
 putchar(' ');
 }
-printf("\n");
+_putchar("\n");
 return (0);
 }
