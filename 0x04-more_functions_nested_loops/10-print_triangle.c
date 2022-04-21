@@ -23,7 +23,7 @@ for (space = 1; space <= (size - i); space++)
 {
 _putchar(' ');
 }
-for (k = 1; k < i; k++)
+for (j = 1; j < i; j++)
 {
 _putchar('#');
 }
