@@ -13,7 +13,7 @@ int i = 0;
 
 while (i < 10)
 {
-while (i != 2 && i != 4)
+if  (i != 2 && i != 4)
 {
 _putchar('0' + i);
 i++;
