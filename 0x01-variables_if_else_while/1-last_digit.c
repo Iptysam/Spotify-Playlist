@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - entry block
- * if...else if... else statement to determine integers and value
+ * main - print the last digit of the number in variable n
  * Return : Always 0 (Success)
  */
 int main(void)
