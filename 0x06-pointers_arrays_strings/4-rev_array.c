@@ -3,10 +3,10 @@
 
 /**
  * reverse_array - function reverse content of an array
-* @a: array operand
-* @n: number of elements of the array
-* Return: 0
-*/
+ * @a: array operand
+ * @n: number of elements of the array
+ * Return: 0
+ */
 void reverse_array(int *a, int n)
 {
 int i, end, tmp;
