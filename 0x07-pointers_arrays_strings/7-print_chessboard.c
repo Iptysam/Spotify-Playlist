@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-#define NULL 0
+
 /**
 * print_chessboard - function to print chessboard
 * @a: array

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-#define NULL 0
+
 /**
 * _strspn - function to get through length of prefix substring
 * @s: return num bytes of
@@ -9,27 +9,22 @@
 */
 unsigned int _strspn(char *s, char *accept)
 {
-int i, j, counter;
+int i, j;
+int c = 0;
 
-counter = 0;
-
-if (*s == NULL || *accept == NULL)
-return (0);
-
-for (i = 0; s[i]; i++)
+for (i = 0; s[i] != '\0'; i++)
 {
-for (j = 0; accept[j]; j++)
+if (s[i] != 32)
+{
+for (j = 0; accept[j] != '\0'; j++)
 {
 if (s[i] == accept[j])
-{
-counter++;
-break;
-}
-else if (*(accept + j + 1) == '\0')
-{
-return (counter);
+c++;
 }
 }
+else
+return (c);
+
 }
-return (counter);
+return (c);
 }
