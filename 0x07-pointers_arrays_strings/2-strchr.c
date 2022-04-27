@@ -9,16 +9,15 @@
 */
 char *_strchr(char *s, char c)
 {
-for (;; s++)
+while (*s)
 {
-if (*s == c)
-{
+if (*s != c)
+s++;
+else
 return (s);
 }
-if (*s == c && c == NULL)
+if (c == '\0')
 return (s);
-if (*s == NULL)
-break;
-}
+
 return (NULL);
 }
