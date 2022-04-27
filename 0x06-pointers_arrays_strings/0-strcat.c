@@ -14,7 +14,7 @@ int len;
 int len2;
 
 for (len = 0; dest[len]; len++)
-		;
+;
 for (len2 = 0; src[len2]; len2++)
 {
 dest[len] = src[len2];
