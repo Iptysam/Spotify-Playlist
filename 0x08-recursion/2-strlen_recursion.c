@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+ * _strlen_recursion - length of a string
+ * @s: pointer to an input
+ * Return: 0 Always
+ */
+
+int _strlen_recursion(char *s)
+{
+if (*s == '\0')
+return 0;
+else
+return 1 + length(s + 1);
+}
