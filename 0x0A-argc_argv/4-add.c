@@ -11,35 +11,18 @@
 */
 int main(int argc, char *argv[])
 {
-int i, j, val = 0;
+int num, digit, sum = 0;
 
-if (argc == 1)
+for (num = 1; num < argc; num++)
 {
-printf("0\n");
-}
-else if (argc < 3)
+for (digit = 0; argv[num][digit]; digit++)
 {
-printf("Error\n");
-return (1);
-}
-else
-{
-for (i = 1; i < argc; i++)
-{
-for (j = 0; argv[i][j] != '\0'; j++)
-{
-if (argv[i][j] > '0' || argv[i][j] > '9')
+if (argv[num][digit] < '0' || argv[num][digit] > '9')
 {
 printf("Error\n");
 return (1);
 }
-else
-{
-val += atoi(argv[i]);
 }
-}
-printf("%d\n", val);
-}
-}
-return (0);
+
+sum += atoi(argv[num]);
 }
