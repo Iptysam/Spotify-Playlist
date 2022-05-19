@@ -26,3 +26,4 @@ return (1);
 
 sum += atoi(argv[num]);
 }
+}
